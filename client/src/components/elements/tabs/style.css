@@ -1,0 +1,31 @@
+.tabs_body {
+    height: 100vh;
+    border-right: 1px solid var(--primary-accent);
+}
+
+.tabs_options_body {
+    display: flex;
+    list-style: none;
+}
+
+.tabs_options_body > li {
+    flex: 1;
+    text-align: center;
+}
+
+.tabs_option_body {
+    padding: var(--standard-padding);
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.tabs_option_body.select {
+    border-bottom: 5px solid var(--primary-accent);
+    color: var(--primary-accent-darker);
+    font-weight: 700;
+}
+
+.tabs_content_body {
+    flex: 1;
+    overflow-y: scroll;
+}

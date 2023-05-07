@@ -1,0 +1,21 @@
+.form_button_body {
+    padding: var(--standard-padding-button);
+    outline: none;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.form_button_body.fill {
+    border: 1px solid var(--primary-accent-darker);
+    background: var(--primary-accent);
+    color: var(--theme-white);
+}
+.form_button_body.stroke {
+    border: 1px solid var(--primary-accent-darker);
+    color: var(--primary-accent-darker);
+}
+.form_button_body.plain {
+    color: var(--primary-accent-darker);
+}

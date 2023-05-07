@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for chat application",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "chat",
+    "websocket"
+  ],
+  "author": "Suyious",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

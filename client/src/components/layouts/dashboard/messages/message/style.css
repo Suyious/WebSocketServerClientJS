@@ -1,0 +1,14 @@
+.message_message_body {
+    padding-inline: 1em;
+}
+
+.message_message_bubble {
+    padding: var(--standard-padding);
+    background: var(--primary-accent);
+    color: var(--theme-white);
+    border-radius: 5px 5px 5px 0;
+}
+
+.message_message_body.outgoing .message_message_bubble{
+    border-radius: 5px 5px 0 5px;
+}

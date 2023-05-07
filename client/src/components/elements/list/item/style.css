@@ -1,0 +1,4 @@
+.list_item_body {
+    padding: var(--standard-padding);
+    border-bottom: 1px solid var(--primary-accent);
+}

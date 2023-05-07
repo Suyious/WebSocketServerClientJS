@@ -1,0 +1,21 @@
+.form_input_body.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_input_body.stroke {
+    padding-inline: 1em;
+    border: 1px solid var(--primary-accent);
+    border-radius: 2px;
+}
+
+.form_input_input {
+    outline: none;
+    border: none;
+}
+
+.form_input_input[type="text"] {
+    padding: var(--standard-padding);
+    width: 100%;
+}

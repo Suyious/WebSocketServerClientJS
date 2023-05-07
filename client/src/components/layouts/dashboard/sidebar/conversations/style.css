@@ -1,0 +1,8 @@
+.conversation_list_item {
+    cursor: pointer;
+}
+
+.conversation_list_item.selected {
+    background: var(--primary-accent);
+    color: white;
+}

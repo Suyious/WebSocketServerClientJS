@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --theme-white: #ffffff;
+
+  --primary-background: var(--theme-white);
+  --primary-accent: #397367;
+  --primary-accent-darker: #22443D;
+
+  --standard-padding: 1em 2em;
+  --standard-padding-equal: 1em;
+  --standard-padding-button: 0.5em 2em;
+}
+
+.flex {
+  display: flex;
+  gap: 1em;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_column_gap {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}

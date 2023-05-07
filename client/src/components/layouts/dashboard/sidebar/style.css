@@ -1,0 +1,11 @@
+.sidebar_bottom_pane {
+    padding: var(--standard-padding)
+}
+
+.sidebar_body {
+    width: 300px;
+}
+
+.sidebar_bottom_button {
+    cursor: pointer;
+}

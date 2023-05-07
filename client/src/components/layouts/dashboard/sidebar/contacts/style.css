@@ -1,0 +1,8 @@
+.contact_list_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_list_item_id {
+    font-size: 0.8em;
+}

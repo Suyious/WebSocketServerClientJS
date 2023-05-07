@@ -1,0 +1,9 @@
+.form_body {
+    width: 100%;
+    padding: var(--standard-padding-equal);
+    display: flex;
+}
+
+.form_body.column {
+    flex-direction: column;
+}
