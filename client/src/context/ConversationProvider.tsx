@@ -60,16 +60,17 @@ export function ConversationProvider({ id, children }: ConversationProviderArgs)
     useEffect(() => {
         if(socket) {
             socket.on('message-receive', ({ recipients, sender, message}) => {
-                console.log("hello");
                 setConversations( prev => {
                     const updatedConversation = [...prev];
+                    let found = false;
                     prev.forEach((conversation, index) => {
                         if(recipientsEqual(recipients, conversation.recipients)) {
-                            console.log(index);
+                            found = true;
                             updatedConversation[index].messages.push({
                                 sender,
                                 message
                             });
+                            return;
                         }
                     })
                     return updatedConversation;
