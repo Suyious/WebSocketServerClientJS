@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 
 const io = new Server(5000, {
     cors: {
-        origin: ["http://localhost:5173"]
+        origin: ["http://localhost:5173", "https://websocketioserver.onrender.com"]
     }
 });
 
