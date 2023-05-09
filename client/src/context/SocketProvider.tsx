@@ -18,7 +18,7 @@ export function SocketProvider({ id, children }: SocketProviderProps) {
 
     useEffect(() => {
         const newSocket = io(
-            "http://localhost:5000",
+			import.meta.env.VITE_SERVER_URL,
             { query: { id }}
         );
         setSocket(newSocket);
